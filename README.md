@@ -3,7 +3,7 @@
 Luza is an implementation of an Azul-like board game. To see the rules of the game, [click here](https://www.ultraboardgames.com/azul/game-rules.php).
 
 ### Installation
-In order to play Luza, you need to have Python installed on your machine, and the python library called tabulate.
+In order to play Luza, you need to have Python 3.8+ installed on your machine, and the python library called tabulate.
 
 #### Python
 
