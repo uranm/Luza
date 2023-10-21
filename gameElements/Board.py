@@ -75,8 +75,8 @@ class RegularLine(Line):
             super().__init__(length)
             self.color = None
         else:
-            raise ValueError("This is a Pattern line, so it cannot have length 7. \
-                              Try lengths 1,2,3,4,5.")
+            raise ValueError("This is a Pattern line, so it cannot have length %d. \
+                              Try lengths 1,2,3,4,5." %length)
         
     def placeTiles(self, tiles):
         ## first get rid of the penalty tile if it's in tiles
